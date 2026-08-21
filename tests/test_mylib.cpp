@@ -15,9 +15,17 @@ void test_add() {
     std::cout << "test_add passed" << std::endl;
 }
 
+void test_multiply() {
+    assert(mylib::multiply(2, 3) == 6);
+    assert(mylib::multiply(-2, 3) == -6);
+    assert(mylib::multiply(0, 5) == 0);
+    std::cout << "test_multiply passed" << std::endl;
+}
+
 int main() {
     test_greet();
     test_add();
+    test_multiply();
     std::cout << "All tests passed!" << std::endl;
     return 0;
 }

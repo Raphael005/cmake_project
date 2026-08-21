@@ -7,6 +7,7 @@ namespace mylib {
 
 std::string greet(const std::string& name);
 int add(int a, int b);
+int multiply(int a, int b);
 
 }  // namespace mylib
 
